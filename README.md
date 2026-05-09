@@ -1,6 +1,7 @@
+*Disclaimer: The below readme, and all of the code in this repository were written by AI (Cursor in auto mode). I have personally tested this on a theme and it works, but use this at your own discretion.*
 # shopify-promote-market-theme
 
-Small **Python 3** CLI that **merges Shopify Online Store 2.0 market template overrides** into the store-default JSON files, so one market’s layout becomes the main theme.
+A basic python3 program that allows you to promote a market-customized theme on Shopify to be your default theme. As of the time of publishing, Shopify does not allow you to merge a market customized theme or any part of it to the store default theme. Thus, when Shopify users accidentally customize a theme under a specific market, and want it to be the default option, they have to redo all the work. This script merges your market customization (with granularity of single file or entire theme) into the store default.  
 
 When you use **Markets**, Shopify can save extra JSON next to a template, for example:
 
