@@ -79,27 +79,6 @@ python3 promote_market_theme.py --theme . --market ca \
 2. **Upload** the updated theme (ZIP or Git/GitHub integration) or push with Shopify CLI.
 3. If you only promoted **one** market, **other** `*.context.*.json` files may still be in the theme; read the script’s stderr warnings and remove or re-export them if you want a fully flat theme.
 
-## Publishing to GitHub
-
-From this folder (after `git` is initialized and committed):
-
-```bash
-cd /path/to/shopify-promote-market-theme
-git init
-git add README.md LICENSE .gitignore promote_market_theme.py
-git commit -m "Initial commit: promote market theme JSON CLI"
-git branch -M main
-```
-
-Create a new empty repository on GitHub, then:
-
-```bash
-git remote add origin https://github.com/YOUR_USER/shopify-promote-market-theme.git
-git push -u origin main
-```
-
-Or use [GitHub CLI](https://cli.github.com/): `gh repo create shopify-promote-market-theme --public --source=. --push`
-
 ## License
 
 See [LICENSE](LICENSE) (MIT).
