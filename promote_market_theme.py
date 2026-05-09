@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """
+DISCLAIMER: THIS FILE WAS WRITTEN BY AI (Cursor in auto mode). USE AT YOUR OWN RISK
 Promote Shopify theme market context JSON into the parent (store default) file.
 
 Examples (run from your theme root, or pass --theme /path/to/theme):
